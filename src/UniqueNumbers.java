@@ -8,8 +8,6 @@ public class UniqueNumbers {
     private volatile int countGenerateNumbers=0;
     private HashSet<Integer> uniqueNumbers= new HashSet<Integer>(100);
 
-
-
     public synchronized void addNumber(int number){
         uniqueNumbers.add(number);
         countGenerateNumbers++;
