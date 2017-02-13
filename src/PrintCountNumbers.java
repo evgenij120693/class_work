@@ -20,7 +20,7 @@ public class PrintCountNumbers implements Runnable{
                 Thread.yield();
             }
 
-            System.out.println("Count generate numbers: "+uniqueNumbers.getCountGenerateNumbers());
+            System.out.println("Count unique numbers: "+uniqueNumbers.getCountUniqueNumbers());
         }
     }
 }

@@ -14,7 +14,6 @@ public class UniqueNumbers {
         if(uniqueNumbers.size()==100){
             flagComplete=true;
         }
-
     }
 
     public synchronized int getCountGenerateNumbers(){
